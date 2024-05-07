@@ -12,9 +12,12 @@ wirtual6 = np.array([2, 1, 3, 2, 3, 0, 2, 2, 2]) # until 6:10:43
 wirtual7 = np.array([0, 1, 3, 2, 2, 2, 2, 1, 2, 0, 3]) # until 7:02:47
 wirtual8 = np.array([2, 1, 2, 4, 3, 2]) # until 8:03:00
 wirtual9 = np.array([2, 1, 2, 2, 2, 2, 4]) # until 9:00:09
+wirtual10= np.array([1, 2, 1, 2, 0, 2, 1, 3, 2, 4, 2, 2]) # until 10:00:00
+wirtual11= np.array([1, 2, 0, 1, 4, 2, 1, 2, 4, 4]) # until 11:07:01
+wirtual12= np.array([4, 2, 2, 1, 0, 2, 2, 2, 2, 4]) # until 12:25:50
 
-wirtual = np.concatenate((wirtual1, wirtual2, wirtual3, wirtual4, wirtual5, wirtual6, wirtual7, wirtual8, wirtual9), axis=0)
-floor = 2
+wirtual = np.concatenate((wirtual1, wirtual2, wirtual3, wirtual4, wirtual5, wirtual6, wirtual7, wirtual8, wirtual9, wirtual10), axis=0)
+floor = 4
 wirtual_floor_success = np.sign(wirtual[wirtual >= floor] - floor)
 print(f"Success on floor {floor}:")
 print(wirtual_floor_success)
