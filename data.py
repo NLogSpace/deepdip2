@@ -71,11 +71,18 @@ wirtual65 = [1, 2, 3, 4, 5, 6, 6, 7, 6, 0, 1, 2, 3, 4, 5, 6, 6, 6, 7, 8, 0, 1, 2
 wirtual66 = [7, 8, 4, 5, 6, 5, 6, 7, 8, 0, 1, 2, 2, 3, 4, 0, 1, 2, 3]
 wirtual67 = [4, 4, 0, 1, 2, 0, 1, 2, 3, 4, 5, 6, 0, 1, 2, 1, 2, 3, 4, 5, 6, 7, 8, 4, 5, 6, 7, 8]
 wirtual68 = [9, 9, 0, 1, 2, 3, 1, 2, 3, 4, 5, 6]
-wirtual69 = [2]
+wirtual69 = [2, 3, 4, 5, 6, 7, 0, 1, 2, 0, 1, 0, 1, 2, 0, 1, 2, 3, 4, 5, 6, 0, 1, 0, 1, 2, 0, 1, 0, 1, 2, 1, 2, 3]
+wirtual70 = [4, 3, 4, 4, 5, 4, 5, 6, 7, 6, 7, 7, 0, 1, 0, 1, 2, 3, 4, 0, 1, 2, 3, 4, 0, 1, 0, 1, 2, 3, 4, 4, 0, 1, 0, 1, 2, 3, 4]
+wirtual71 = [5, 1, 2, 0, 1, 2, 3, 4, 0, 1, 2, 0, 1, 2, 0, 1, 2, 3, 4, 5, 6, 5, 6, 5, 6, 0, 0, 1, 2, 3, 0, 1, 2, 3, 4, 5, 6, 7, 8]
+wirtual72 = [8, 9, 9, 8, 9, 1, 0, 0, 0, 1, 0, 1, 2, 0, 1, 0, 1, 2, 0, 1, 0, 1, 2, 3, 0, 1, 2, 0, 1, 2, 3, 4, 5, 0, 1, 2, 0]
+wirtual73 = [1, 2, 3, 4, 5, 6, 6, 0, 1, 2, 0, 1, 2, 0, 1, 2, 0, 1, 0, 1, 2, 3, 4, 5, 6, 7, 3, 4, 5, 6, 6, 7, 8]
+wirtual74 = [0, 1, 2, 0, 1, 2, 3, 4, 3, 4, 0, 1, 2, 0, 1, 2, 3, 4, 5, 0, 1, 2, 3, 4, 5, 6, 5, 6, 3, 4, 0, 1, 2, 3, 4, 1, 0, 1, 0, 1, 2, 0, 1, 2]
+wirtual75 = [3, 4, 5, 6, 7, 8, 4, 5, 6, 0, 1, 2, 3, 4, 5, 6, 7, 6, 7, 6, 7, 8, 9]
+wirtual76 = [9, 9, 9, 10, 2, 3, 0, 1, 2, 3, 4, 5]
 
 wirtual = [wirtual1, wirtual2, wirtual3, wirtual4, wirtual5, wirtual6, wirtual7, wirtual8, wirtual9, wirtual10, wirtual11, wirtual12, wirtual13, wirtual14,
            wirtual15, wirtual16, wirtual17, wirtual18, wirtual19, wirtual20, wirtual21, wirtual22, wirtual23, wirtual24, wirtual25, wirtual26, wirtual27,
            wirtual28, wirtual29, wirtual30, wirtual31, wirtual32, wirtual33, wirtual34, wirtual35, wirtual36, wirtual37, wirtual38, wirtual39, wirtual40,
            wirtual41, wirtual42, wirtual43, wirtual44, wirtual45, wirtual46, wirtual47, wirtual48, wirtual49, wirtual50, wirtual51, wirtual52, wirtual53,
            wirtual54, wirtual55, wirtual56, wirtual57, wirtual58, wirtual59, wirtual60, wirtual61, wirtual62, wirtual63, wirtual64, wirtual65, wirtual66,
-           wirtual67, wirtual68]
+           wirtual67, wirtual68, wirtual69, wirtual70, wirtual71, wirtual72, wirtual73, wirtual74, wirtual75, wirtual76]
