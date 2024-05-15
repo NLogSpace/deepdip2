@@ -90,6 +90,18 @@ wirtual84 = [5, 6, 0, 1, 2, 3, 4, 0, 1, 2, 3, 4, 5, 6, 0, 1, 0, 1, 0, 1, 2, 0, 1
 wirtual85 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 8, 9, 9, 9, 10, 11]
 wirtual86 = [3, 4, 5, 6, 5, 6, 0, 1, 2, 3, 4, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 8, 5]
 wirtual87 = [6, 7, 8, 0, 0, 1, 0, 1, 0, 1, 1, 2, 3, 4, 5, 6, 7, 0, 1, 2, 3, 4, 5, 6, 7, 6, 7, 8, 9, 8]
+wirtual88 = [9, 10, 9, 0, 1, 2, 3, 4, 3, 4, 3, 4, 0, 1, 2, 0, 1, 2, 3, 1, 2, 0, 1, 2, 3, 4, 5, 6]
+wirtual89 = [7, 8, 0, 1, 2, 0, 1, 2, 3, 4, 5, 0, 1, 2, 3, 4, 3, 4, 5, 6, 7, 6, 7, 6, 7, 6, 7, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 2, 3]
+wirtual90 = [4, 5, 6, 7, 8, 3, 4, 0, 1, 0, 1, 2, 0, 1, 2, 3, 4, 4, 5, 6, 7, 8, 9, 9, 10, 9]
+wirtual91 = [8, 9, 5, 6, 7, 8, 0, 1, 2, 3, 4, 5, 6, 7, 8, 3, 4, 5, 6, 6, 7, 8]
+wirtual92 = [9, 8, 9, 10, 6, 7, 6, 7, 8, 4, 5, 6, 7, 4, 5, 6, 7, 6, 7, 6, 7, 0] 
+wirtual93 = [1, 0, 1, 2, 0, 0, 1, 0, 1, 2, 3, 4, 5, 6, 0, 1, 2, 0, 0, 1, 2, 0, 1, 2, 0, 1, 2, 3, 4, 0, 1, 2, 3, 4, 5, 5, 6, 0, 1, 2, 3, 4, 5]
+wirtual94 = [6, 7, 0, 1, 2, 1, 2, 0, 1, 2, 0, 1, 0, 1, 2, 3, 4, 5, 5, 6, 7, 0, 1, 2, 3, 4, 5, 6, 7, 8, 4, 5]
+wirtual95 = [6, 0, 1, 2, 0, 0, 1, 2, 1, 0, 1, 0, 1, 2, 0, 1, 2, 3, 4, 5, 6, 6, 5, 6, 7, 8]
+wirtual96 = [5, 6, 5, 6, 6, 7, 8, 8, 9, 10, 11, 10, 3, 4, 5, 6, 7, 8, 9, 10]
+wirtual97 = [11, 6, 3, 4, 5, 6, 7, 8, 4, 0, 1, 0, 1, 2, 3, 4, 5, 0, 1, 0, 1, 2, 3, 4, 5, 6, 0, 1, 2, 3, 4, 5, 6]
+wirtual98 = [7, 8, 9, 10, 11, 10, 11, 0, 1, 0, 1, 2, 0, 1, 0, 1, 0, 1, 2, 3, 4, 5, 6]
+wirtual99 = [7, 6, 7, 0, 1, 2, 1, 2, 3, 4, 5, 6, 7, 0, 1, 2, 0, 1, 2, 3, 4, 5, 6, 6, 7, 8, 9, 2, 3, 4]
 
 wirtual = [wirtual1, wirtual2, wirtual3, wirtual4, wirtual5, wirtual6, wirtual7, wirtual8, wirtual9, wirtual10, wirtual11, wirtual12, wirtual13, wirtual14,
            wirtual15, wirtual16, wirtual17, wirtual18, wirtual19, wirtual20, wirtual21, wirtual22, wirtual23, wirtual24, wirtual25, wirtual26, wirtual27,
@@ -97,4 +109,5 @@ wirtual = [wirtual1, wirtual2, wirtual3, wirtual4, wirtual5, wirtual6, wirtual7,
            wirtual41, wirtual42, wirtual43, wirtual44, wirtual45, wirtual46, wirtual47, wirtual48, wirtual49, wirtual50, wirtual51, wirtual52, wirtual53,
            wirtual54, wirtual55, wirtual56, wirtual57, wirtual58, wirtual59, wirtual60, wirtual61, wirtual62, wirtual63, wirtual64, wirtual65, wirtual66,
            wirtual67, wirtual68, wirtual69, wirtual70, wirtual71, wirtual72, wirtual73, wirtual74, wirtual75, wirtual76, wirtual77, wirtual78, wirtual79,
-           wirtual80, wirtual81, wirtual82, wirtual83, wirtual84, wirtual85, wirtual86, wirtual87]
+           wirtual80, wirtual81, wirtual82, wirtual83, wirtual84, wirtual85, wirtual86, wirtual87, wirtual88, wirtual89, wirtual90, wirtual91, wirtual92,
+           wirtual93, wirtual94, wirtual95, wirtual96, wirtual97, wirtual98, wirtual99]
