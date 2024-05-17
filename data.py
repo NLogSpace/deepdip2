@@ -1,7 +1,8 @@
 """
+This is Wirtual's progress on Deep Dip 2.
 Every array lists the floors he visited in that hour.
-If he falls a significant part, like more than 2 or 3 obstacles far,
-we write down the floor where he landed.
+If a floor is repeated immediately, that means he fell inside the floor
+a significant part, like more than 2 or 3 obstacles far.
 """
 wirtual1 = [0, 0, 0, 1, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1, 2, 1, 2, 0, 1, 0, 1, 0, 1, 2, 0, 1, 2, 0, 1]
 wirtual2 = [0, 1, 2, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 2, 1, 2, 0, 0, 1, 2, 0, 1, 2, 0, 1, 2, 0, 1, 0, 1, 2, 0, 1, 2, 0, 1]
@@ -110,6 +111,23 @@ wirtual104 = [5, 6, 3, 0, 1, 2, 1, 2, 0, 1, 2, 3, 4, 0, 1, 1, 2, 3, 0, 1, 0, 1, 
 wirtual105 = [1, 2, 0, 1, 2, 3, 0, 1, 2, 0, 1, 2, 0, 1, 2, 3, 0, 1, 2, 3, 4, 5, 6, 7, 8, 0, 1, 2, 3, 4, 5, 0, 1, 2, 3, 4, 0, 1, 0, 1, 2, 0]
 wirtual106 = [1, 2, 3, 4, 5, 6, 3, 4, 5, 0, 0, 1, 0, 1, 2, 3, 4, 0, 1, 2, 0, 1, 2, 0, 0, 1, 0, 1, 0, 1, 2, 0, 1, 2, 3, 4, 5, 6, 7]
 wirtual107 = [8, 9, 7, 8, 0, 1, 2, 3, 4, 5, 6, 7, 7, 3, 4, 5, 6, 7, 6, 0, 1, 0, 1, 2, 3, 4]
+wirtual108 = [5, 5, 6, 0, 1, 2, 0, 1, 2, 3, 4, 5, 3, 4, 5, 0, 1, 0, 1, 2, 3, 3, 4, 5, 0, 1, 2, 2, 3, 4, 5, 6, 6, 7, 8, 4]
+wirtual109 = [5, 6, 7, 0, 1, 2, 3, 4, 3, 4, 5, 6, 7, 8, 9, 0, 1, 2, 3, 4, 5, 6, 7, 8]
+wirtual110 = [9, 10, 0, 0, 1, 2, 3, 4, 0, 1, 2, 0, 1, 2, 3, 4, 5, 6, 3, 4, 5, 6, 7, 8, 9]
+wirtual111 = [5, 6, 7, 8, 9, 9, 10, 11, 0, 1, 2, 3, 4, 5, 6, 7]
+wirtual112 = [8, 4, 5, 6, 7, 0, 1, 0, 1, 2, 3, 4, 4, 5, 6, 7, 6, 7, 8, 9, 10, 11, 3, 4, 5, 6, 7, 7, 4, 5, 0]
+wirtual113 = [1, 2, 3, 4, 5, 6, 7, 0, 1, 2, 3, 4, 5, 0, 1, 0, 1, 2, 0, 1, 2, 0, 1, 0, 1, 2, 0, 1, 2, 3, 4, 5, 4, 5, 6, 7, 0, 0, 1, 2, 3]
+wirtual114 = [4, 5, 6, 7, 8, 4, 4, 5, 6, 7, 0, 1, 2, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 8, 0, 1]
+wirtual115 = [2, 3, 4, 5, 6, 7, 8, 9, 10, 6, 0, 1, 2, 3, 4, 5, 6, 7, 3, 4, 0, 1, 2, 3, 4, 5, 6]
+wirtual116 = [0, 1, 2, 0, 1, 2, 3, 4, 5, 6, 7, 8, 4, 0, 1, 2, 0, 1, 0, 1, 2, 3, 0, 1, 2, 3, 0, 0, 1, 2, 0, 1, 2, 0, 1, 2, 0, 1, 2, 3, 4, 5]
+wirtual117 = [6, 7, 0, 1, 2, 3, 4, 5, 0, 1, 2, 3, 4, 3, 4, 5, 6, 6, 7, 8, 9, 0, 0, 1, 2, 3, 4]
+wirtual118 = [5, 0, 1, 2, 3, 4, 5, 6, 7, 0, 1, 2, 0, 1, 0, 1, 2, 3, 0, 1, 0, 1, 0, 1, 2, 0, 1, 2, 3, 0, 1, 2, 0, 1, 2, 3, 0, 1, 0, 1, 0]
+wirtual119 = [1, 2, 0, 1, 2, 3, 4, 5, 6, 5, 6, 7, 8, 9, 5, 6, 7, 0, 1, 2, 3, 4, 5, 6, 0, 1, 0, 1, 0, 1, 0, 1, 2, 3, 4, 5, 5]
+wirtual120 = [6, 7, 8, 9, 7, 8, 9, 9, 10, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+wirtual121 = [10, 11, 0, 1, 2, 3, 4, 5, 0, 1, 2, 0, 1, 2, 3, 4, 5, 0, 1, 2, 3, 4, 0, 1, 2, 0, 0, 1, 2, 3, 4, 5, 0, 1, 2, 0, 0, 1, 2]
+wirtual122 = [3, 4, 5, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 8, 9, 7, 0, 1, 2, 3, 4, 5]
+wirtual123 = [5, 6, 7, 8, 8, 9, 9, 10, 11, 8]
+wirtual124 = [0, 1, 2, 0, 1, 0, 0, 1, 2, 3, 4, 5, 5, 6, 7, 7, 8, 9, 10, 11, 0] # until 123:40 stream end
 
 wirtual = [wirtual1, wirtual2, wirtual3, wirtual4, wirtual5, wirtual6, wirtual7, wirtual8, wirtual9, wirtual10, wirtual11, wirtual12, wirtual13, wirtual14,
            wirtual15, wirtual16, wirtual17, wirtual18, wirtual19, wirtual20, wirtual21, wirtual22, wirtual23, wirtual24, wirtual25, wirtual26, wirtual27,
@@ -118,4 +136,6 @@ wirtual = [wirtual1, wirtual2, wirtual3, wirtual4, wirtual5, wirtual6, wirtual7,
            wirtual54, wirtual55, wirtual56, wirtual57, wirtual58, wirtual59, wirtual60, wirtual61, wirtual62, wirtual63, wirtual64, wirtual65, wirtual66,
            wirtual67, wirtual68, wirtual69, wirtual70, wirtual71, wirtual72, wirtual73, wirtual74, wirtual75, wirtual76, wirtual77, wirtual78, wirtual79,
            wirtual80, wirtual81, wirtual82, wirtual83, wirtual84, wirtual85, wirtual86, wirtual87, wirtual88, wirtual89, wirtual90, wirtual91, wirtual92,
-           wirtual93, wirtual94, wirtual95, wirtual96, wirtual97, wirtual98, wirtual99]
+           wirtual93, wirtual94, wirtual95, wirtual96, wirtual97, wirtual98, wirtual99, wirtual100, wirtual101, wirtual102, wirtual103, wirtual104,
+           wirtual105, wirtual106, wirtual107, wirtual108, wirtual109, wirtual110, wirtual111, wirtual112, wirtual113, wirtual114, wirtual115,
+           wirtual116, wirtual117, wirtual118, wirtual119, wirtual120, wirtual121, wirtual122, wirtual123]
