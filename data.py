@@ -139,6 +139,12 @@ wirtual128 = [1, 2, 0, 1, 2, 3, 4, 5, 6, 7, 0, 0, 0, 1, 2, 1, 0, 1, 0, 1, 2, 3, 
 wirtual129 = [7, 8, 9, 10, 11, 0, 1, 2, 0, 1, 2, 3, 4, 5, 6, 6, 0, 1, 2, 3, 4, 5, 6, 7, 6, 7]
 wirtual130 = [4, 5, 2, 3, 4, 5, 6, 7, 0, 1, 2, 3, 4, 5, 6, 7, 6, 7, 8, 0, 1, 2, 3, 4, 5, 0, 1, 0, 1, 2, 3, 4, 0, 1, 2]
 wirtual131 = [3, 4, 5, 6, 7, 8, 0, 1, 2, 3, 4, 5, 3, 4, 5, 6, 5, 6, 7, 8, 0, 1, 2, 0, 1, 2, 3, 0, 1, 2, 3, 4, 0, 1, 2]
+wirtual132 = [3, 0, 0, 1, 0, 1, 2, 3, 4, 5, 6, 5, 6, 7, 8, 0, 1, 0, 1, 2, 3, 4, 5, 6, 7, 6, 7, 8, 9, 9, 10, 11]
+wirtual133 = [7, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 9, 8, 9, 10, 11, 0, 1, 2, 3, 4, 5, 6, 6]
+wirtual134 = [7, 8, 9, 10, 11, 6, 7, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+wirtual135 = [0, 1, 2, 0, 1, 1, 2, 3, 4, 5, 6, 7, 8, 3, 4, 5, 6, 7, 7, 8, 9, 9, 10]
+wirtual136 = [11, 12, 11, 11, 8, 9, 10, 11, 3, 4, 5, 0, 1, 2, 0, 1, 2, 3, 4, 3, 4, 5, 6, 7, 8, 9]
+wirtual137 = [10, 11, 8, 9, 10, 11, 0, 1, 2, 0, 1, 0, 0, 1, 2, 3, 4, 0, 1, 2, 1, 2, 3, 4, 5, 6, 5, 6, 7, 0, 1, 2, 3, 0, 1, 2]
 
 wirtual = [wirtual1, wirtual2, wirtual3, wirtual4, wirtual5, wirtual6, wirtual7, wirtual8, wirtual9, wirtual10, wirtual11, wirtual12, wirtual13, wirtual14,
            wirtual15, wirtual16, wirtual17, wirtual18, wirtual19, wirtual20, wirtual21, wirtual22, wirtual23, wirtual24, wirtual25, wirtual26, wirtual27,
@@ -150,4 +156,4 @@ wirtual = [wirtual1, wirtual2, wirtual3, wirtual4, wirtual5, wirtual6, wirtual7,
            wirtual93, wirtual94, wirtual95, wirtual96, wirtual97, wirtual98, wirtual99, wirtual100, wirtual101, wirtual102, wirtual103, wirtual104,
            wirtual105, wirtual106, wirtual107, wirtual108, wirtual109, wirtual110, wirtual111, wirtual112, wirtual113, wirtual114, wirtual115,
            wirtual116, wirtual117, wirtual118, wirtual119, wirtual120, wirtual121, wirtual122, wirtual123, wirtual124, wirtual125, wirtual126,
-           wirtual127, wirtual128, wirtual129, wirtual130, wirtual131]
+           wirtual127, wirtual128, wirtual129, wirtual130, wirtual131, wirtual132, wirtual133, wirtual134, wirtual135, wirtual136, wirtual137]
